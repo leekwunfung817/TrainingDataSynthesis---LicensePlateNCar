@@ -1,0 +1,135 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/leekwunfung/Documents/Unity/2020.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Volumes/APFS/Unity-Technologies-ml-imagesynthesis-2b2bce9c0fc3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57566
+Successfully changed project path to: /Volumes/APFS/Unity-Technologies-ml-imagesynthesis-2b2bce9c0fc3
+/Volumes/APFS/Unity-Technologies-ml-imagesynthesis-2b2bce9c0fc3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 105.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path /Users/leekwunfung/Documents/Unity/2020.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/APFS/Unity-Technologies-ml-imagesynthesis-2b2bce9c0fc3/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-05 12:59:09.363 Unity[66931:2051304] Color LCD preferred device: Intel HD Graphics 4000 (low power)
+2021-04-05 12:59:09.363 Unity[66931:2051304] Metal devices available: 1
+2021-04-05 12:59:09.363 Unity[66931:2051304] 0: Intel HD Graphics 4000 (low power)
+2021-04-05 12:59:09.365 Unity[66931:2051304] Using device Intel HD Graphics 4000 (low power)
+Initializing Metal device caps: Intel HD Graphics 4000
+Initialize mono
+Mono path[0] = '/Users/leekwunfung/Documents/Unity/2020.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/leekwunfung/Documents/Unity/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/leekwunfung/Documents/Unity/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56931
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/leekwunfung/Documents/Unity/2020.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003858 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 62.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.906 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.920 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/leekwunfung/Documents/Unity/2020.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1172 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 7.124436 ms (FindLiveObjects: 1.096050 ms CreateObjectMapping: 0.103841 ms MarkObjects: 5.750291 ms  DeleteObjects: 0.172135 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/laxer Assets/creek/Models/with collision/bach2.prefab
+  artifactKey: Guid(b5ed0f464db84114da39a9078e965b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/Models/with collision/bach2.prefab using Guid(b5ed0f464db84114da39a9078e965b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7072f182b3fa7f93a19cf144e7b0f7') in 1.444732 seconds
+  Import took 1.450950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001050 seconds.
+  path: Assets/laxer Assets/creek/Models/with collision/bach5.prefab
+  artifactKey: Guid(52c23bb8367e58340b674a9a4eca570d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/Models/with collision/bach5.prefab using Guid(52c23bb8367e58340b674a9a4eca570d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab1839fa24701a3baeda4b71d8a1bd1') in 0.025275 seconds
+  Import took 0.030906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/laxer Assets/creek/Models/with collision/bach3.prefab
+  artifactKey: Guid(564df3afe8ae5764cbd7411904d60d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/Models/with collision/bach3.prefab using Guid(564df3afe8ae5764cbd7411904d60d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0017bcc78f2073080e21dbe59f46e2') in 0.045181 seconds
+  Import took 0.049575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/laxer Assets/creek/Models/with collision/bach.prefab
+  artifactKey: Guid(e08be078f2fbd4d4884029b188f839d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/Models/with collision/bach.prefab using Guid(e08be078f2fbd4d4884029b188f839d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078407b943747b9c35df7fe705b0c7fb') in 0.030782 seconds
+  Import took 0.035365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/laxer Assets/creek/grass/grass2.prefab
+  artifactKey: Guid(d2b210aa8b77047498caf5fbc908fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/grass/grass2.prefab using Guid(d2b210aa8b77047498caf5fbc908fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f666d29f3030845f7777731857209c') in 0.127181 seconds
+  Import took 0.131428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/laxer Assets/creek/Models/with collision/bach4.prefab
+  artifactKey: Guid(fe9035ad75caab744adbbed1f0ccf576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/Models/with collision/bach4.prefab using Guid(fe9035ad75caab744adbbed1f0ccf576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e88473209603d8fa4ec7c9177966f7') in 0.024913 seconds
+  Import took 0.030381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/laxer Assets/creek/Pine1/Tree 2.prefab
+  artifactKey: Guid(67d5d33fad2abf8449cefdd52d241420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/Pine1/Tree 2.prefab using Guid(67d5d33fad2abf8449cefdd52d241420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b962ea8faa44ca3e2e75d3f35521bb') in 1.673123 seconds
+  Import took 1.679392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/laxer Assets/creek/Pine1/Ambient Occlusion/tanne.prefab
+  artifactKey: Guid(ce11fca39409c3e49b049871df145901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/creek/Pine1/Ambient Occlusion/tanne.prefab using Guid(ce11fca39409c3e49b049871df145901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a2e3bcc0adf097eda592eb627ee077') in 0.346524 seconds
+  Import took 0.350719 seconds .
+
