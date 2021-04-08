@@ -63,9 +63,9 @@ public class GenCam : MonoBehaviour
 		}
 		// Debug.Log("Show "+go.name);
 		go.transform.position = new Vector3(
-			0,
+			go.transform.position.x,
 			go.transform.position.y,
-			go.transform.position.z
+			0
 		);
 	}
 	void Hide(string gon) {
@@ -76,9 +76,9 @@ public class GenCam : MonoBehaviour
 		}
 		// Debug.Log("Hide "+go.name);
 		go.transform.position = new Vector3(
-			20,
+			go.transform.position.x,
 			go.transform.position.y,
-			go.transform.position.z
+			20
 		);
 		// Debug.Log(": "+go.transform.position.x.ToString());
 		
@@ -113,10 +113,13 @@ public class GenCam : MonoBehaviour
 		// +up -down
 		float y = cy+Random.Range(-3f, 3f);
 		// +back -front
-		float z = cz+Random.Range(1f, 6f);
+		float z = cz+Random.Range(3f, 6f);
 		// Debug.Log("Update "+" "+x+"-"+y+"-"+z);
 		transform.position = new Vector3(x,y,z);
 		transform.LookAt(new Vector3(cx,cy,cz));
+
+		Vector3 screenPos = Camera.main.WorldToScreenPoint(car.transform.position);
+
 	}
 
 }
